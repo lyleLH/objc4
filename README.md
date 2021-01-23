@@ -1,6 +1,6 @@
 ![hero](https://github.com/0xxd0/objc4/raw/master/static/media/hero.png)
 
-[简体中文](https://github.com/0xxd0/objc4/raw/master/static/media/README_zh-CN.md)
+### [简体中文](https://github.com/0xxd0/objc4/blob/master/README_zh-CN.md)
 
 <!-- # **objc runtime**  -->
 ![build_status](https://github.com/0xxd0/objc4/workflows/build/badge.svg) 
