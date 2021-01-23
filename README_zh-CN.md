@@ -1,4 +1,4 @@
-![hero](https://github.com/0xxd0/objc4/raw/master/static/media/hero.png)
+![hero](https://github.com/0xxd0/objc4/raw/master/static/media/hero.jpeg)
 
 <!-- # **objc runtime**  -->
 ![build_status](https://github.com/0xxd0/objc4/workflows/build/badge.svg) 

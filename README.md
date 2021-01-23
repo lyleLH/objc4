@@ -1,4 +1,4 @@
-![hero](https://github.com/0xxd0/objc4/raw/master/static/media/hero.png)
+![hero](https://github.com/0xxd0/objc4/raw/master/static/media/hero.jpeg)
 
 ### [简体中文](https://github.com/0xxd0/objc4/blob/master/README_zh-CN.md)
 
