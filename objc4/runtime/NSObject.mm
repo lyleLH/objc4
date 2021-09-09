@@ -2022,6 +2022,8 @@ objc_opt_isKindOfClass(id obj, Class otherClass)
     return ((BOOL(*)(id, SEL, Class))objc_msgSend)(obj, @selector(isKindOfClass:), otherClass);
 }
 
+//NOTE -- objc_opt_respondsToSelector
+
 // Calls [obj respondsToSelector]
 BOOL
 objc_opt_respondsToSelector(id obj, SEL sel)
@@ -2219,6 +2221,8 @@ __attribute__((objc_nonlazy_class))
 
 #endif
 
+//NOTE -- __attribute__((objc_nonlazy_class))
+
 __attribute__((objc_nonlazy_class))
 @implementation NSObject
 
@@ -2285,6 +2289,7 @@ __attribute__((objc_nonlazy_class))
     return NO;
 }
 
+//NOTE -- respondsToSelector
 + (BOOL)instancesRespondToSelector:(SEL)sel {
     return class_respondsToSelector_inst(nil, sel, self);
 }
