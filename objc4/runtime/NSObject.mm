@@ -2021,7 +2021,7 @@ objc_opt_isKindOfClass(id obj, Class otherClass)
 #endif
     return ((BOOL(*)(id, SEL, Class))objc_msgSend)(obj, @selector(isKindOfClass:), otherClass);
 }
-
+//MARK: - objc_opt_respondsToSelector
 //NOTE -- objc_opt_respondsToSelector
 
 // Calls [obj respondsToSelector]
@@ -2220,7 +2220,7 @@ __attribute__((objc_nonlazy_class))
 @end
 
 #endif
-
+//MARK: - __attribute__((objc_nonlazy_class))
 //NOTE -- __attribute__((objc_nonlazy_class))
 
 __attribute__((objc_nonlazy_class))
@@ -2289,6 +2289,7 @@ __attribute__((objc_nonlazy_class))
     return NO;
 }
 
+//MARK: - respondsToSelector
 //NOTE -- respondsToSelector
 + (BOOL)instancesRespondToSelector:(SEL)sel {
     return class_respondsToSelector_inst(nil, sel, self);
